@@ -21,7 +21,7 @@ def main():
         with open(f, "rb") as fin:
             # Up to 1024 characters.
             # https://core.telegram.org/bots/api#inputmediadocument
-            caption = f"List view: https://vles.tech/sub?proxy-list=https://flm.biz.st{f}\n\n Total Accounts: {len(fin.readlines())}\n\n Updated on: {current_time}"
+            caption = f"List view: https://vles.tech/sub?proxy-list=https://raw.githubusercontent.com/SherlyKinan/proxy-check/refs/heads/main/{f}\n\n Total Accounts: {len(fin.readlines())}\n\n Updated on: {current_time}"
             # After the len(fin.readlines()) file's current position
             # will be at the end of the file. seek(0) sets the position
             # to the begining of the file so we can read it again during
