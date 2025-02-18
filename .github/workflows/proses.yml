@@ -14,8 +14,7 @@ jobs:
     steps:
     - name: 📂 Checkout Repository
       uses: actions/checkout@v3
-      with:
-       token: ${{ secrets.GIT_TOKEN }}
+      
     - name: Download Proxy
       run: |
         curl -o proxy.txt -LJO "https://cf.cepu.us.kg/update_proxyip.txt"
