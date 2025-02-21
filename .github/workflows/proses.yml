@@ -16,7 +16,7 @@ jobs:
       
     - name: Download Proxy
       run: |
-        curl -o proxy.txt -LJO "https://cf.cepu.us.kg/update_proxyip.txt"
+        curl -o proxy.txt -LJO "https://raw.githubusercontent.com/freetomaid/5412/refs/heads/main/proxylist1_2024-12-24.txt"
           
     - name: 🐍 Set Up Python
       uses: actions/setup-python@v4
