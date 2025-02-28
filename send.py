@@ -4,7 +4,7 @@ from datetime import date
 import pytz
 
 BOT_TOKEN = "7562323829:AAGr5jb4XNf6D_JOBPsF8yE4PqAgQFC82XM"
-CHAT_ID = -1001884100919
+CHAT_ID = -1001786965873
 current_time = datetime.datetime.now(pytz.timezone('Asia/Jakarta'))
 today = date.today()
 
