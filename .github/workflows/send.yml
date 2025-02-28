@@ -1,0 +1,43 @@
+name: Subscription Updater
+
+on:
+  push:
+    branches: [ "main" ]
+  schedule:
+    - cron: '0 12 * * *'
+
+  #workflow_dispatch:
+jobs:
+  UpdateSub:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check The Code
+        uses: actions/checkout@v2
+      - name: Get Files
+        run: |
+          curl -o proxylist1.txt -LJO "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/refs/heads/main/proxyList.txt"
+          curl -o proxylist2.txt -LJO "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/refs/heads/main/rawProxyList.txt"
+        
+
+      - name: Push And Update Files
+        run: |
+          git config --global user.name "dinaneq"
+          git config --global user.email "dinanda@5412.us.to"
+          git add .
+          git commit -m "Diperbarui pada - $(TZ='Asia/Jakarta' date '+%Y-%m-%d %H:%M:%S') WIB"
+          git push
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install python-telegram-bot==13.15
+          
+      - name: Run Python script
+        run: |
+          python send.py  # Replace with your script's path
+      
