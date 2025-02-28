@@ -11,7 +11,11 @@ today = date.today()
 def main():
     bot = Bot(BOT_TOKEN)
     file_paths = (
-        "vmess",
+        "proxy.txt",
+        "dead.txt",
+        "active.txt",
+        "proxylist1.txt",
+        "proxylist2.txt",
     )
 
     for f in file_paths:
