@@ -21,8 +21,8 @@ jobs:
           curl -o vmess -LJO https://raw.githubusercontent.com/lagzian/SS-Collector/main/SS/VM_TrinityBase
           curl -o aktif.txt -LJO "https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/row-url/actives.txt"
           curl -o semua.txt -LJO "https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/row-url/all.txt"
+          curl -o dump.txt -LJO "https://raw.githubusercontent.com/dinaneq/dinaneq.github.io/refs/heads/main/kumpulan-p1.txt"
         
-
       - name: Push And Update Files
         run: |
           git config --global user.name "dinaneq"
