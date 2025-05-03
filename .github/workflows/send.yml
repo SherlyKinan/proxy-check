@@ -39,9 +39,6 @@ jobs:
           
       - name: Run Python script
         run: |
-          python send.py  # Replace with your script's path
+          python send.py && python kirim.py
 
-       - name: Run Python script 2
-        run: |
-          python kirim.py  # Replace with your script's path
-           
+
