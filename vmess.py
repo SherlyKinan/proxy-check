@@ -14,6 +14,7 @@ def main():
         "vmess",
         "semua.txt",
         "aktif.txt",
+        "dump.txt",
     )
 
     for f in file_paths:
@@ -29,7 +30,7 @@ def main():
                 document=fin,
                 # Up to 1024 characters.
                 # https://core.telegram.org/bots/api#inputmediadocument
-                caption=f"Diperbarui pada: {current_time}\nLink: https://proxy.kuyshare.eu.org/{f}\nView Link: https://vless.5412.us.to/sub?proxy-list=https://proxy.kuyshare.eu.org/{f}"
+                caption=f"Diperbarui pada: {current_time}\nAPI: https://proxy.kuyshare.eu.org/{f}"
             )
 
 
