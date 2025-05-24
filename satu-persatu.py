@@ -22,7 +22,7 @@ def kirim_pesan(bot):
 
 def main():
     bot = Bot(TOKEN)
-    await kirim_pesan(bot)
+    kirim_pesan(bot)
 
 if __name__ == '__main__':
     main()
