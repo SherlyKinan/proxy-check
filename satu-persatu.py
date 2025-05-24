@@ -1,4 +1,3 @@
-import asyncio
 from telegram import Bot
 
 # Token API dari BotFather
@@ -10,7 +9,7 @@ CHAT_ID = '-1002292042831'
 # Nama file txt yang berisi data
 FILE_TXT = 'aktif.txt'
 
-async def kirim_pesan(bot):
+def kirim_pesan(bot):
     try:
         with open(FILE_TXT, 'r') as file:
             data = file.readlines()
@@ -21,9 +20,9 @@ async def kirim_pesan(bot):
     except FileNotFoundError:
         print(f"File {FILE_TXT} tidak ditemukan.")
 
-async def main():
+def main():
     bot = Bot(TOKEN)
     await kirim_pesan(bot)
 
 if __name__ == '__main__':
-    asyncio.run(main())
+    main()
