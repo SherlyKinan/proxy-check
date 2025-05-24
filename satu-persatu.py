@@ -17,7 +17,7 @@ async def kirim_pesan(bot):
             for line in data:
                 line = line.strip()
                 if line:
-                    await bot.send_message(chat_id=CHAT_ID, text=line)
+                    bot.send_message(chat_id=CHAT_ID, text=line)
     except FileNotFoundError:
         print(f"File {FILE_TXT} tidak ditemukan.")
 
