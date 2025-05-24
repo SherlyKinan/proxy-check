@@ -18,7 +18,6 @@ async def kirim_pesan(bot):
                 line = line.strip()
                 if line:
                     await bot.send_message(chat_id=CHAT_ID, text=line)
-                    await asyncio.sleep(1)  # Tunggu 1 detik sebelum mengirim pesan berikutnya
     except FileNotFoundError:
         print(f"File {FILE_TXT} tidak ditemukan.")
 
