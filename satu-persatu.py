@@ -6,7 +6,7 @@ from telegram import Bot
 TOKEN = '7562323829:AAGr5jb4XNf6D_JOBPsF8yE4PqAgQFC82XM'
 
 # ID Chat tujuan
-CHAT_ID = '-1002292042831'
+CHANNEL_ID = '-1002292042831'
 
 # Nama file txt yang berisi data
 FILE_TXT = 'aktif.txt'
