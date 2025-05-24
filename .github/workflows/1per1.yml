@@ -1,5 +1,4 @@
-name: Subscription Updater
-
+name: 1per1
 on:
   push:
     branches: [ "main" ]
