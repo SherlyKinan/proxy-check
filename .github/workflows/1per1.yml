@@ -29,6 +29,6 @@ jobs:
           
       - name: Run Python script
         run: |
-          python send.py satu-persatu.py
+          python satu-persatu.py
 
 
