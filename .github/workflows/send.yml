@@ -24,13 +24,6 @@ jobs:
           curl -o dump.txt -LJO "https://raw.githubusercontent.com/dinaneq/dinaneq.github.io/refs/heads/main/kumpulan-p1.txt"
           curl -o vmess.txt -LJO https://raw.githubusercontent.com/lagzian/SS-Collector/main/SS/VM_TrinityBase
  
-      - name: Push And Update Files
-        run: |
-          git config --global user.name "dinaneq"
-          git config --global user.email "dinanda@5412.us.to"
-          git add .
-          git commit -m "Diperbarui pada - $(TZ='Asia/Jakarta' date '+%Y-%m-%d %H:%M:%S') WIB"
-          git push
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
@@ -45,6 +38,14 @@ jobs:
       - name: Run Python script
         run: |
           python proxies.py
+
+      - name: Push And Update Files
+        run: |
+          git config --global user.name "dinaneq"
+          git config --global user.email "dinanda@5412.us.to"
+          git add .
+          git commit -m "Diperbarui pada - $(TZ='Asia/Jakarta' date '+%Y-%m-%d %H:%M:%S') WIB"
+          git push
           
       - name: Run Python script
         run: |
