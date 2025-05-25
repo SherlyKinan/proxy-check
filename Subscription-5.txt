@@ -1,8 +1,4 @@
-#profile-title: base64:8J+GkyBHaXRodWI6IEA3NDY0NyB8IFRHOiBAWmVyb0RheVRN
-#profile-update-interval: 1
-#subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
-#support-url: https://github.com/74647/Proxify
-#profile-web-page-url: https://github.com/74647/Proxify
+DUMP BY KUYSHARE
 vless://838f5273-5d2d-4630-a0f5-9cc8e4aef4d6@172.64.148.138:8443?security=tls&sni=CoKrChAs3.RoCkStOnEy.iNfO&type=ws&host=CoKrChAs3.RoCkStOnEy.iNfO&alpn=h2%2Chttp%2F1.1#🔒 VL-WS-TLS 🏴‍☠️ NA-172.64.148.138:8443
 vless://41e606c4-c9bb-42a3-9601-55e9ff6f706a@104.26.10.91:443?security=tls&sni=calm-bonus-748d.jixosey717.workers.dev&type=ws&host=calm-bonus-748d.jixosey717.workers.dev&path=%2F%3Fed%3D2048&fp=chrome&alpn=h3%2Ch2#🔒 VL-WS-TLS 🏴‍☠️ NA-104.26.10.91:443
 vless://ee6774c0-9b19-4ff1-8b30-2da4b71977e2@172.67.208.247:443?security=tls&sni=edccj.ambercc.filegear-sg.me&type=ws&host=edccj.ambercc.filegear-sg.me&path=%2F%3Fed%3D2560#🔒 VL-WS-TLS 🏴‍☠️ NA-172.67.208.247:443

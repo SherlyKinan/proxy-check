@@ -1,8 +1,4 @@
-#profile-title: base64:8J+GkyBHaXRodWI6IEA3NDY0NyB8IFRHOiBAWmVyb0RheVRN
-#profile-update-interval: 1
-#subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
-#support-url: https://github.com/74647/Proxify
-#profile-web-page-url: https://github.com/74647/Proxify
+DUMP BY KUYSHARE
 vless://c5293efa-28f8-4a0f-8f34-541078970cee@45.131.4.243:80?type=ws&host=gozargah.validbv7996.ir&path=%2FTelegram%40WangCai2#🔒 VL-WS-NA 🇳🇱 NL-45.131.4.243:80
 vless://15298f41-e80b-463a-b85b-0c903258a1c8@199.34.228.48:443?security=tls&sni=d5.medicaltreatment.ir&type=ws&host=d5.medicaltreatment.ir&path=sinavm-sinavm%2F%3Fed#🔒 VL-WS-TLS 🇺🇸 US-199.34.228.48:443
 vless://721a6c8e-809f-404d-91d6-582860af9cc3@192.178.218.101:443?security=tls&sni=google.com&type=ws&host=gtest-638114869974.europe-west4.run.app&path=%2FrWUMkmNJBTurxq6Hlt8D6ftJ8qP7&fp=chrome&alpn=http/1.1#🔒 VL-WS-TLS 🇺🇸 US-192.178.218.101:443

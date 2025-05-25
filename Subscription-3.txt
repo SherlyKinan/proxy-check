@@ -1,8 +1,4 @@
-#profile-title: base64:8J+GkyBHaXRodWI6IEA3NDY0NyB8IFRHOiBAWmVyb0RheVRN
-#profile-update-interval: 1
-#subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
-#support-url: https://github.com/74647/Proxify
-#profile-web-page-url: https://github.com/74647/Proxify
+DUMP BY KUYSHARE
 vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.152:8880?sni=pqh33v6.cinema33.shop&type=grpc#🔒 VL-GRPC-NA 🇨🇾 CY-45.82.251.152:8880
 vless://568279ce-dd78-4f33-9e5c-64b18c5505db@151.101.123.69:80?security=none&type=ws&host=foffmelo.com&path=%2Folem%2Fws%3Fed%3D2560#🔒 VL-WS-NONE 🇫🇷 FR-151.101.123.69:80
 vless://06e4425e-a8cb-4b63-929f-2105604ab0a9@162.159.44.173:443?sni=vc.ylka.dpdns.org&type=ws&host=vc.ylka.dpdns.org&allowInsecure=1#🔒 VL-WS-NA 🏴‍☠️ NA-162.159.44.173:443

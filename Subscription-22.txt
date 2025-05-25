@@ -1,8 +1,4 @@
-#profile-title: base64:8J+GkyBHaXRodWI6IEA3NDY0NyB8IFRHOiBAWmVyb0RheVRN
-#profile-update-interval: 1
-#subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
-#support-url: https://github.com/74647/Proxify
-#profile-web-page-url: https://github.com/74647/Proxify
+DUMP BY KUYSHARE
 ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==@67.220.95.102:5500#🔒 SS-TCP-NA 🇺🇸 US-67.220.95.102:5500
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphOGJ0OWZZMFFzTFM2ZUxuWFVlMFlt@45.158.171.129:8080#🔒 SS-TCP-NA 🇫🇷 FR-45.158.171.129:8080
 ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==@138.186.143.32:989#🔒 SS-TCP-NA 🇵🇪 PE-138.186.143.32:989

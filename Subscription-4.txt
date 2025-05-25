@@ -1,8 +1,4 @@
-#profile-title: base64:8J+GkyBHaXRodWI6IEA3NDY0NyB8IFRHOiBAWmVyb0RheVRN
-#profile-update-interval: 1
-#subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
-#support-url: https://github.com/74647/Proxify
-#profile-web-page-url: https://github.com/74647/Proxify
+DUMP BY KUYSHARE
 vless://55520747-311e-4015-83ce-be46e2060ce3@160.123.255.5:443?sni=cl.bgm2024.dpdns.org&type=ws&host=cl.bgm2024.dpdns.org&allowInsecure=1#🔒 VL-WS-NA 🇿🇦 ZA-160.123.255.5:443
 vless://17606d29-e77d-4d2c-81ac-81b8bb1311d1@131.186.22.238:443?security=tls&flow=xtls-rprx-vision-udp443&sni=buylite.music.apple.com&fp=chrome&allowInsecure=0#🔒 VL-TCP-TLS 🇰🇷 KR-131.186.22.238:443
 vless://ee6774c0-9b19-4ff1-8b30-2da4b71977e2@104.16.3.154:443?security=tls&sni=edccj.ambercc.filegear-sg.me&type=ws&host=edccj.ambercc.filegear-sg.me&path=%2F%3Fed%3D2560#🔒 VL-WS-TLS 🏴‍☠️ NA-104.16.3.154:443
