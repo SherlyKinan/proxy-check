@@ -77,4 +77,29 @@ def kirim_pesan_per_baris_dari_file_txt():
 
 # --- Cara Penggunaan Skrip ---
 if __name__ == "__main__":
-kirim_pesan_per_baris_dari_file_txt()
+    # 1. Pastikan Anda sudah mengganti nilai TELEGRAM_BOT_TOKEN dan TELEGRAM_CHANNEL_ID di bagian 'Konfigurasi' di atas.
+    # 2. Buat file teks dengan nama `daftar_pesan.txt` di direktori yang sama dengan skrip ini.
+    #    Setiap baris dalam file ini akan dikirim sebagai pesan terpisah ke channel Telegram.
+    #
+    #    Contoh isi file `daftar_pesan.txt`:
+    #    Halo semua! Selamat pagi.
+    #    Ini adalah daftar pengumuman penting:
+    #    1. Acara akan dimulai pukul 10:00 WIB.
+    #    2. Jangan lupa membawa kartu identitas.
+    #    3. Makan siang disediakan.
+    #    Sampai jumpa!
+
+    # Kode di bawah ini hanya untuk membantu membuat file `daftar_pesan.txt` jika belum ada, untuk tujuan pengujian.
+    if not os.path.exists(FILE_PESAN_PER_BARIS_TXT):
+        with open(FILE_PESAN_PER_BARIS_TXT, 'w', encoding='utf-8') as f:
+            f.write("Pesan pertama dari file TXT.\n")
+            f.write("Ini baris kedua, akan menjadi pesan terpisah.\n")
+            f.write("Baris ketiga dengan *Markdown* (jika parse_mode diaktifkan).\n")
+            f.write("Link penting: [Google](https://google.com)\n")
+            f.write("Terima kasih!")
+        print(f"File '{FILE_PESAN_PER_BARIS_TXT}' telah dibuat dengan contoh isi.")
+        print("Silakan edit file tersebut sesuai pesan yang Anda inginkan.")
+
+    # Minta pengguna untuk menekan Enter sebelum memulai pengiriman.
+    # input(f"\nTekan Enter untuk memulai pengiriman pesan ke channel '{TELEGRAM_CHANNEL_ID}'...")
+    kirim_pesan_per_baris_dari_file_txt()
