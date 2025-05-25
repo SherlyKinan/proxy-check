@@ -77,3 +77,4 @@ def kirim_pesan_per_baris_dari_file_txt():
 
 # --- Cara Penggunaan Skrip ---
 if __name__ == "__main__":
+kirim_pesan_per_baris_dari_file_txt()
