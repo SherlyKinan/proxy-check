@@ -123,11 +123,7 @@ def get_v2ray():
 
         with open(f"Subscription-{file_num}.txt", 'w') as output:
             output.write(
-                '''#profile-title: base64:8J+GkyBHaXRodWI6IEA3NDY0NyB8IFRHOiBAWmVyb0RheVRN
-#profile-update-interval: 1
-#subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
-#support-url: https://github.com/74647/Proxify
-#profile-web-page-url: https://github.com/74647/Proxify
+                '''DUMP BY KUYSHARE
 '''
             )
             output.write('\n'.join(chunk) + '\n')
