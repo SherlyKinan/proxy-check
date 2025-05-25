@@ -7,7 +7,7 @@ on:
 
   #workflow_dispatch:
 jobs:
-  UpdateSub:
+  Proses:
     runs-on: ubuntu-latest
 
     steps:
@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Get Files
         run: |
-          curl -o aktif.txt -LJO "https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/row-url/actives.txt"
+          curl -o vmess.txt -LJO "https://raw.githubusercontent.com/lagzian/SS-Collector/main/SS/VM_TrinityBase"
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
