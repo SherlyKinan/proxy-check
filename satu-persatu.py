@@ -11,7 +11,7 @@ TELEGRAM_BOT_TOKEN = "7562323829:AAGr5jb4XNf6D_JOBPsF8yE4PqAgQFC82XM"
 TELEGRAM_CHANNEL_ID = "-1002292042831"
 
 # Nama file TXT yang berisi pesan-pesan yang akan dikirim, satu pesan per baris.
-FILE_PESAN_PER_BARIS_TXT = "aktif.txt"
+FILE_PESAN_PER_BARIS_TXT = "vmess.txf"
 
 # Jeda waktu antar pengiriman pesan (dalam detik).
 # Ini sangat penting untuk menghindari batasan laju (rate limit) Telegram API.
