@@ -1,21 +1,21 @@
-name: Delete Munde
+name: dmunde
 on:
-  schedule:
-    - cron:  0 * */7 * *
-  workflow_dispatch:
+  schedule:
+    - cron: 1 * */7 * *
+  workflow_dispatch:
 jobs:
-  ProsesBackup:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2.1.0
-    - name: Menginstall Rclone
-      run: curl https://rclone.org/install.sh | sudo bash
-    - name: Memuat konfigurasi Rclone
-      run: |
-        mkdir -p ~/.config/rclone/
-        cat >  ~/.config/rclone/rclone.conf  << EOF
-        ${{ secrets.delete }}
-        EOF
-    - name: Delete
-      run: |
-        rclone delete "del:" --drive-use-trash=false --rmdirs
+  ProsesBackup:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2.1.0
+    - name: Menginstall Rclone
+      run: curl https://rclone.org/install.sh | sudo bash
+    - name: Memuat konfigurasi Rclone
+      run: |
+        mkdir -p ~/.config/rclone/
+        cat >  ~/.config/rclone/rclone.conf  << EOF
+        ${{ secrets.delete }}
+        EOF
+    - name: dmunde
+      run: |
+         rclone delete "del:" --drive-use-trash=false --rmdirs
